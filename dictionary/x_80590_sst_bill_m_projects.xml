@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Projects" max_length="40" name="x_80590_sst_bill_m_projects" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="0" label="Amount Utilized (In INR)" max_length="40" name="amount_utilized" type="decimal"/>
+        <element display="true" label="Project ID" mandatory="true" max_length="40" name="project_id" type="string"/>
+        <element label="Project Name" mandatory="true" max_length="40" name="project_name" type="string"/>
+        <element default="0" label="Total Amount Utilized (In INR)" max_length="40" name="total_amount_utilized" type="integer"/>
+    </element>
+</database>

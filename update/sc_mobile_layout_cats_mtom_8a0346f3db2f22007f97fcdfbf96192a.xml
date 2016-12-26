@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_mobile_layout_cats_mtom">
+    <sc_mobile_layout_cats_mtom action="INSERT_OR_UPDATE">
+        <category display_value="Bill Management">496139e1dbab22007f97fcdfbf9619e6</category>
+        <mobile_layout display_value="">cbafccd2eb2201003623666cd206fee9</mobile_layout>
+        <order>100</order>
+        <sys_class_name>sc_mobile_layout_cats_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-14 10:41:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>8a0346f3db2f22007f97fcdfbf96192a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Bill Management.</sys_name>
+        <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name>sc_mobile_layout_cats_mtom_8a0346f3db2f22007f97fcdfbf96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-14 10:43:07</sys_updated_on>
+    </sc_mobile_layout_cats_mtom>
+</record_update>

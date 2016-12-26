@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>bill_caller</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Information For Requestor</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading)
+      return;
+
+   if (newValue == '') {
+      g_form.setValue('location', '');
+	  g_form.setValue('department','');
+	  g_form.setValue('manager','');
+      return;
+   }
+
+   if (!g_form.getControl('location') || !g_form.getControl('department') || !g_form.getControl('manager'))
+      return;
+
+   var caller = g_form.getReference('bill_caller', setInformation);
+}
+
+function setInformation(caller) {
+   if (caller)
+       g_form.setValue('location', caller.location);
+	   g_form.setValue('department',caller.department);
+	   g_form.setValue('manager',caller.manager);
+		
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-05 13:42:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>782598c5db6322007f97fcdfbf961990</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Information For Requestor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name>sys_script_client_782598c5db6322007f97fcdfbf961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-05 14:36:03</sys_updated_on>
+        <table>x_80590_sst_bill_m_bill_management_system</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

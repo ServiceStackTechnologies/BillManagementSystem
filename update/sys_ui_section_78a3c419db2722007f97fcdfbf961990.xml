@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="78a3c419db2722007f97fcdfbf961990" sys_domain="global" table="x_80590_sst_bill_m_department_budget_available" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>cb7f3271db6322007f97fcdfbf961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_available</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>5f7f3271db6322007f97fcdfbf961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_alloted</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>df7f3271db6322007f97fcdfbf961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_available_in_euro</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>537f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_allotted_in_euro</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>d37f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>577f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>d77f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_available_in_pounds</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>5b7f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_allotted_in_pound</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>db7f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_available_in_dollars</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>5f7f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_allotted_in_dollar</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 09:57:17</sys_created_on>
+            <sys_id>df7f3271db6322007f97fcdfbf961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 09:57:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_available_in_inr</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 15:26:37</sys_created_on>
+            <sys_id>afda8c4adba322007f97fcdfbf961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_80590_sst_bill_m_department_budget_available" sys_domain="global" view="Default view">78a3c419db2722007f97fcdfbf961990</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 15:26:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_80590_sst_bill_m_department_budget_available</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-06 06:59:35</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78a3c419db2722007f97fcdfbf961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_80590_sst_bill_m_department_budget_available</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+            <sys_update_name>sys_ui_section_78a3c419db2722007f97fcdfbf961990</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-06 06:59:35</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

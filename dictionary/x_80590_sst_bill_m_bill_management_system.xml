@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Bill Management System" max_length="40" name="x_80590_sst_bill_m_bill_management_system" type="collection">
+        <element label="Bill Approved Date" max_length="50" name="bill_approved_date" read_only="true" type="glide_date"/>
+        <element label="Bill Requester" mandatory="true" max_length="32" name="bill_caller" reference="sys_user" type="reference"/>
+        <element label="Bill Generated On" max_length="50" name="bill_generated_on" read_only="true" type="glide_date"/>
+        <element attributes="ts_weight=50,ignore_filter_on_new=true,edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Bill Number" max_length="50" name="bill_number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element choice="1" label="Category" mandatory="true" max_length="50" name="category" type="string">
+            <choice>
+                <element label="Food &amp; Beverages" sequence="0" value="food &amp; beverages"/>
+                <element label="Travel" sequence="1" value="travel"/>
+                <element label="Hotels" sequence="2" value="hotels"/>
+                <element label="Taxi" sequence="3" value="taxi"/>
+                <element label="International Travel" sequence="4" value="international travel"/>
+                <element label="Domestic Travel" sequence="5" value="domestic travel"/>
+                <element label="Miscellaneous" sequence="6" value="miscellaneous"/>
+            </choice>
+        </element>
+        <element default="0.00" label="Converted  Amount (In INR) " max_length="40" name="converted_approved_amount_in_inr" read_only="true" type="decimal"/>
+        <element default="0" label="Converted INR" max_length="40" name="converted_inr" type="decimal"/>
+        <element choice="1" label="Currency" mandatory="true" max_length="40" name="currency" type="string">
+            <choice>
+                <element label="Dollar" sequence="0" value="dollar"/>
+                <element label="Euro" sequence="1" value="euro"/>
+                <element label="INR" sequence="2" value="inr"/>
+                <element label="Pound" sequence="3" value="pound"/>
+            </choice>
+        </element>
+        <element label="Cost Centre" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Description" max_length="360" name="description" type="string"/>
+        <element label="Group" mandatory="true" max_length="32" name="group" reference="sys_user_group" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element display="true" label="Project ID" max_length="32" name="project_id" reference="x_80590_sst_bill_m_projects" type="reference"/>
+        <element label="Short Description" mandatory="true" max_length="180" name="short_description" type="string"/>
+        <element choice="3" default="1" label="State" max_length="32" name="state" type="integer">
+            <choice>
+                <element label="New" sequence="0" value="1"/>
+                <element label="Waiting For Approval" sequence="1" value="2"/>
+                <element label="Approved" sequence="2" value="3"/>
+                <element label="Rejected" sequence="3" value="4"/>
+                <element label="Closed" sequence="4" value="5"/>
+            </choice>
+        </element>
+        <element active="false" label="Sub-category" max_length="50" name="sub_category" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Amount" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="bill_caller"/>
+        </index>
+        <index name="index2">
+            <element name="manager"/>
+        </index>
+        <index name="index3">
+            <element name="project_id"/>
+        </index>
+        <index name="index4">
+            <element name="location"/>
+        </index>
+        <index name="index5">
+            <element name="state"/>
+        </index>
+        <index name="index6">
+            <element name="department"/>
+        </index>
+        <index name="index7">
+            <element name="group"/>
+        </index>
+    </element>
+</database>

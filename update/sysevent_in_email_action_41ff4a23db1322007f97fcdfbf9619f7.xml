@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>CreateBill</name>
+        <order>1</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[if(email.subject.startsWith("Bill")) {
+
+
+current.short_description = email.subject; 
+
+	
+if (email.body.currency != undefined){
+	if (email.body.currency.toLowerCase()== "inr" || email.body.currency.toLowerCase()== "euro" || email.body.currency.toLowerCase()=="dollar" || email.body.currency.toLowerCase()=="pound")
+		current.currency = email.body.currency.toLowerCase();
+}
+
+
+current.u_string_1 = email.body.value;
+
+//current.manager="System Administrator";
+                
+
+if (email.body.category != undefined){                          //3
+  
+	  if (email.body.category.toLowerCase() == "taxi" || email.body.category.toLowerCase() == "hotels" ||email.body.category.toLowerCase() == "travel"  || email.body.category.toLowerCase() == "miscellaneous" || email.body.category.toLowerCase() == "domestic travel" || email.body.category.toLowerCase() == "international travel" )
+		   current.category = email.body.category.toLowerCase();
+}
+		
+}
+event.state="stop_processing";]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-01 07:22:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>41ff4a23db1322007f97fcdfbf9619f7</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>CreateBill</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name>sysevent_in_email_action_41ff4a23db1322007f97fcdfbf9619f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-05 14:36:28</sys_updated_on>
+        <table>x_80590_sst_bill_m_bill_management_system</table>
+        <template>bill_callerDYNAMIC2fd8e97bef3221002841f7f775c0fbc1^descriptionDYNAMIC367bf121ef3221002841f7f775c0fbe2^EQ</template>
+        <type>new</type>
+    </sysevent_in_email_action>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Image" max_length="40" name="x_80590_sst_bill_m_image" type="collection">
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+    </element>
+</database>

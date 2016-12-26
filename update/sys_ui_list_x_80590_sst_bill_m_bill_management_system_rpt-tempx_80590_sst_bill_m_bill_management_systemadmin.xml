@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_80590_sst_bill_m_bill_management_system" version="2" view="rpt-tempx_80590_sst_bill_m_bill_management_systemadmin">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bill_number</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>b61dac13dba322007f97fcdfbf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bill_caller</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>3a1dac13dba322007f97fcdfbf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>ba1dac13dba322007f97fcdfbf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>3e1dac13dba322007f97fcdfbf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>be1dac13dba322007f97fcdfbf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>321dac13dba322007f97fcdfbf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>group</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>f61de853dba322007f97fcdfbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>manager</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>7a1de853dba322007f97fcdfbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>fa1de853dba322007f97fcdfbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bill_approved_date</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>7e1de853dba322007f97fcdfbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_1</element>
+            <list_id display_value="x_80590_sst_bill_m_bill_management_system" element="NULL" name="x_80590_sst_bill_m_bill_management_system" parent="NULL" relationship="NULL" sys_domain="global" view="7e1dac13dba322007f97fcdfbf961998">b21dac13dba322007f97fcdfbf961999</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_id>fe1de853dba322007f97fcdfbf9619f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_80590_sst_bill_m_bill_management_system</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b21dac13dba322007f97fcdfbf961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-tempx_80590_sst_bill_m_bill_management_systemadmin" name="rpt-tempx_80590_sst_bill_m_bill_management_systemadmin">7e1dac13dba322007f97fcdfbf961998</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

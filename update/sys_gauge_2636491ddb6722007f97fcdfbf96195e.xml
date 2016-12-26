@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge">
+    <sys_gauge action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate>COUNT</aggregate>
+        <attributes/>
+        <fieldname>state</fieldname>
+        <group_field/>
+        <lower_limit/>
+        <name>Approved Bills</name>
+        <order/>
+        <other_threshold>-2</other_threshold>
+        <parent/>
+        <query table="x_80590_sst_bill_m_bill_management_system">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query>
+        <report/>
+        <roles/>
+        <stack_field/>
+        <sys_class_name>sys_gauge</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-06 11:51:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2636491ddb6722007f97fcdfbf96195e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Approved Bills</sys_name>
+        <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name>sys_gauge_2636491ddb6722007f97fcdfbf96195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-06 11:54:25</sys_updated_on>
+        <tablename>x_80590_sst_bill_m_bill_management_system</tablename>
+        <title>Approved Bills</title>
+        <type>thermometer</type>
+        <upper_limit/>
+        <url/>
+        <view/>
+    </sys_gauge>
+</record_update>

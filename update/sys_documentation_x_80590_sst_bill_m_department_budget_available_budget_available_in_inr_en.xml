@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="budget_available_in_inr" label="Budget Available (In INR)" language="en" table="x_80590_sst_bill_m_department_budget_available">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>budget_available_in_inr</element>
+            <help/>
+            <hint/>
+            <label>Budget Available (In INR)</label>
+            <language>en</language>
+            <name>x_80590_sst_bill_m_department_budget_available</name>
+            <plural>Budget Available (In INR)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-12-08 15:26:37</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a7da8c4adba322007f97fcdfbf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Budget Available (In INR)</sys_name>
+            <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+            <sys_update_name>sys_documentation_x_80590_sst_bill_m_department_budget_available_budget_available_in_inr_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-12-08 15:26:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

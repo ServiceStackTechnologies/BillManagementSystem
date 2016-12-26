@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Department Budget Available" max_length="40" name="x_80590_sst_bill_m_department_budget_available" sizeclass="7" type="collection">
+        <element label="Budget Allocated (In INR)" max_length="32" name="budget_alloted" type="string"/>
+        <element default="0" label="Budget Available (In INR)" max_length="40" name="budget_available_in_inr" type="decimal"/>
+        <element active="false" label="Currency" max_length="32" name="currency" type="string"/>
+        <element label="Cost Centre" max_length="32" name="department" reference="cmn_department" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>PreventIfAvailableGreaterThanAlloted</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	// get value for budget available
+	 var available = g_form.getValue('budget_available');
+	// get value for budget alloted
+	var alloted = g_form.getValue('budget_alloted');
+	//alert(available);
+	//alert(alloted);
+	// parsing string value into int
+	var parsed1 = parseInt(available);
+	// parsing string value into int 
+	var parsed2 = parseInt(alloted);
+	//alert("parsed value"+parsed1);
+	//alert("parsed value 2"+parsed2);
+	// comparing the two values
+	if (parsed1 > parsed2)
+		{
+			// to show error box
+			g_form.showErrorBox("budget_available", "Budget Available should be less than Budget Alloted");
+			//alert("Available Greater Than Alloted");
+			return false;
+		}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-06 11:02:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af0ab0d9db6722007f97fcdfbf96190b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>PreventIfAvailableGreaterThanAlloted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name>sys_script_client_af0ab0d9db6722007f97fcdfbf96190b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-06 11:31:54</sys_updated_on>
+        <table>x_80590_sst_bill_m_department_budget_available</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-tempx_80590_sst_bill_m_bill_management_systemadmin</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-12 15:08:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7e1dac13dba322007f97fcdfbf961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-12 15:08:37</sys_updated_on>
+        <title>Rpt-tempx_80590_sst_bill_m_bill_management_systemadmin</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

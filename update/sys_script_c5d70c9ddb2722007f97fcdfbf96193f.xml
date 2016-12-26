@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_80590_sst_bill_m_bill_management_system</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_80590_sst_bill_m_bill_management_system">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>BMS_UpdateDepartmentBudget</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+var amount = new GlideRecord('x_80590_sst_bill_m_department_budget_available');
+amount.addQuery('department',current.department);
+amount.query();
+ if (amount.next()){
+	
+	
+	 var convertedApproved = current.converted_approved_amount_in_inr;
+	 convertedApproved = convertedApproved/4.97;
+	 var budget_available_in_inr = amount.budget_available_in_inr;
+	 var total = budget_available_in_inr - convertedApproved;
+	 amount.budget_available_in_inr = total;
+	 
+	 
+	 
+// 	 var approvedAmount = parseInt(current.u_string_1);
+	 
+// 	 approvedAmount = approvedAmount / 2;
+	 
+	
+// 	 var budgetAmount = parseInt(amount.budget_available);
+
+// 	var currency = current.currency;
+// 	if (currency=="inr")
+// 	var leftBudget = budgetAmount - approvedAmount ;
+// 	var stringBudget = leftBudget.toString();
+// 	amount.budget_available = stringBudget;
+
+// 	 if (currency == "dollar")
+// 	 var leftBudgetDollar = amount.budget_available_in_dollars;
+// 	 var finalDollarLeft = leftBudgetDollar - approvedAmount;
+// 	 amount.budget_available_in_dollars= finalDollarLeft;
+	 
+// 	 if (currency=="euro")
+// 	 var leftBudgetEuro = amount.budget_available_in_euro;
+// 	 var finalEuroLeft = leftBudgetEuro - approvedAmount;
+// 	 amount.budget_available_in_euro = finalEuroLeft;
+	 
+// 	 if (currency == "pound")
+// 	 var leftBudgetPound = amount.budget_available_in_pounds;
+// 	 var finalPoundLeft = 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	 amount.update();
+	
+ }
+	
+	})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-06 07:43:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c5d70c9ddb2722007f97fcdfbf96193f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>BMS_UpdateDepartmentBudget</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SST_Bill_Management_System" source="x_80590_sst_bill_m">6ae3495bdbd322007f97fcdfbf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="SST_Bill_Management_System">6ae3495bdbd322007f97fcdfbf96192d</sys_scope>
+        <sys_update_name>sys_script_c5d70c9ddb2722007f97fcdfbf96193f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-12 09:06:41</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c5d70c9ddb2722007f97fcdfbf96193f"/>
+</record_update>
